@@ -2,7 +2,7 @@
 import re
 
 #  其他路径
-# filepath = r'E:\D5 Render test 742\d5_immerse\Saved\Logs\d5_immerse.log'
+# filepath = r'E:\D5 Render test 798\d5_immerse\Saved\Logs\d5_immerse.log'
 
 #  pre、cn2路径
 filepath = r'C:\Users\WXS\AppData\Local\d5_immerse\Saved\Logs\d5_immerse.log'
@@ -24,7 +24,7 @@ def time_convert(keyword_list):
     timeklist = []
     if len(keyword_list):
         for i in keyword_list:
-            # print(i)
+            print(i)
             minute = int(i[:2])
             second = int(i[3:5])
             millisecond = int(i[-3:])

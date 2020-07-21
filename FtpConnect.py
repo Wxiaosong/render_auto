@@ -1,6 +1,7 @@
 from ftplib import FTP
 import os
 
+
 class Myftp:
 
     ftp = FTP()

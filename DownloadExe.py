@@ -1,7 +1,7 @@
 # coding=utf-8
 
 import os
-from connectFtp import Myftp
+from FtpConnect import Myftp
 from config.config import *
 
 # filename = sys.argv[1]

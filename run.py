@@ -1,10 +1,10 @@
 # coding=utf-8
 
 import os
-from connectFtp import Myftp
+from FtpConnect import Myftp
 from config.config import *
 import process
-import calculate_md5
+import Md5
 import time
 
 # filename = sys.argv[1]
@@ -23,7 +23,7 @@ if __name__ == '__main__':
         time.sleep(7)
         print(55)
         while process.process_search(ExeName) is True:
-            calculate_md5.calculate(tokenFolder)
+            Md5.calculate(tokenFolder)
             print("token完成")
     except IOError:
         print("error: 失败")
